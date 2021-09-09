@@ -8,7 +8,7 @@
 </head>
 <body>
    <!-- sushi delivery from-->
-   <form action="" method="post"> 
+   <form action="delivery.php" method="post"> 
          
         <div class="form">
          <h3 class="titre">Welcome to SushiShop </h3>
@@ -20,16 +20,16 @@
          
          <!--row 1-->
          <tr>
-             <td><input type="radio" name="California" value="California">California Roll   == "coût 5$"</td><br><br>
-             <td><input type="radio" name="Rainbow" value="Rainbow"> Rainbow Roll   ==  "coût 8$"</td><br><br>
-             <td><input type="radio" name=" Est" value=" Est"> Est Roll  ==  "coût 18$"  </td><br><br>
+             <td><input type="radio" name="C" value="1">California Roll   == "coût 5$"</td><br><br>
+             <td><input type="radio" name="R" value="2"> Rainbow Roll   ==  "coût 8$"</td><br><br>
+             <td><input type="radio" name=" E" value="3"> Est Roll  ==  "coût 18$"  </td><br><br>
          </tr>  <br><br><br>
          
          <!--row 2-->
          <tr>
-             <td><input type="radio" name="Philadelphia" value="Philadelphia">Philadelphia Roll    ==  "coût 28$"</td><br><br>
-             <td><input type="radio" name="Valcano" value="Valcano"> Valcano Roll    ==  "coût 15$"</td><br><br>
-             <td><input type="radio" name="Avocado" value="Avocado"> Avocado Roll    ==  "coût 10$"</td><br><br>
+             <td><input type="radio" name="P" value="4">Philadelphia Roll    ==  "coût 28$"</td><br><br>
+             <td><input type="radio" name="V" value="5"> Valcano Roll    ==  "coût 15$"</td><br><br>
+             <td><input type="radio" name="A" value="6"> Avocado Roll    ==  "coût 10$"</td><br><br>
          </tr> <br> <br> <br>
         
          <!--Submit button-->
