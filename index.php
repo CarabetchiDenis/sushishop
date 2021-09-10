@@ -19,27 +19,27 @@
                           
                <label for="California">***California Roll***</label>
                <name="California" id="California"> 
-               <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  5$/morceaux"<br><br><br>
+               <input type="number" name="California" id="California" min="0" value="0"><<< Select here == "coût  5$/morceaux"<br><br><br>
                
                 <label for="Rainbow">***Rainbow Roll***</label>
                 <name="Rainbow" id="Rainbow">
-                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  8$/morceaux"<br><br><br>
+                <input type="number" name="Rainbow" id="Rainbow" min="0" value="0"><<< Select here == "coût  8$/morceaux"<br><br><br>
              
                 <label for="Est">***Est Roll***</label>
                 <name="Est" id="Est">
-                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  3$/morceaux"<br><br><br>
+                <input type="number" name="Est" id="Est" min="0" value="0"><<< Select here == "coût  3$/morceaux"<br><br><br>
              
                 <label for="Philadelphia">***Philadelphia Roll***</label>
                 <name="Philadelphia" id="Philadelphia">
-                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  4$/morceaux"<br><br><br>
+                <input type="number" name="Philadelphia" id="Philadelphia" min="0" value="0"><<< Select here == "coût  4$/morceaux"<br><br><br>
              
                 <label for="Valcano">***Valcano Roll***</label>
                 <name="Valcano" id="Valcano">
-                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  9$/morceaux"<br><br><br>
+                <input type="number" name="Valcano" id="Valcano" min="0" value="0"><<< Select here == "coût  9$/morceaux"<br><br><br>
              
                 <label for="Avocado">***Avocado Roll***</label>
                 <name="Avocado" id="Avocado">
-                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  10$/morceaux"<br><br><br>
+                <input type="number" name="Avocado" id="Avocado" min="0" value="0"><<< Select here == "coût  10$/morceaux"<br><br><br>
                 <br> <br> <br>
         
                 <!--Submit button-->
