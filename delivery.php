@@ -21,9 +21,8 @@
     if(isset($_POST['Valcano'])) {
     } 
     if(isset($_POST['Avocado'])) {
-        echo $_POST['Avocado'];
     } 
-    echo "<br><br>";  
+     
     
     // creer variable
       $California = $_POST['California'];
