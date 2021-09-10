@@ -10,12 +10,12 @@
       <!-- sushi delivery from-->
         <form action="delivery.php" method="post"> 
          
-         <div class="form">
-          <h3 class="titre">Welcome to SushiShop </h3>
-          <h4>Choisissez votre command</h4>
-          <h5> Attention paquet de 0 morceaux par default </h5> <br>
+            <div class="form">
+             <h3 class="titre">Welcome to SushiShop </h3>
+             <h4>Choisissez votre command</h4>
+             <h5> Attention paquet de 0 morceaux par default </h5> <br>
 
-          <!-- Choice option -->         
+              <!-- Choice option -->         
                           
                <label for="California">***California Roll***</label>
                <name="California" id="California"> 
@@ -44,7 +44,7 @@
         
                 <!--Submit button-->
                 <input type="submit" value="Submit order" name="submit">
-         </div>
+            </div>
         </form>
 
     </body>

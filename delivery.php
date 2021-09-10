@@ -11,25 +11,15 @@
 
  //verif
     if (isset($_POST['California'])) {
-        echo $_POST['California'];
     }
-    echo "<br><br>";
     if(isset($_POST['Rainbow'])) {
-        echo $_POST['Rainbow'];
-    }
-    echo "<br><br>";
+    }    
     if(isset($_POST['Est'])) {
-        echo $_POST['Est'];
     } 
-    echo "<br><br>";
     if(isset($_POST['Philadelphia'])) {
-        echo $_POST['Philadelphia'];
     } 
-    echo "<br><br>";
     if(isset($_POST['Valcano'])) {
-        echo $_POST['Valcano'];
     } 
-    echo "<br><br>";
     if(isset($_POST['Avocado'])) {
         echo $_POST['Avocado'];
     } 
@@ -43,6 +33,12 @@
       $Valcano = $_POST['Valcano'];
       $Avocado = $_POST['Avocado'];
       $txt = "SUSHISHOP";
+      $QuantityCal = $_POST['California'];
+      $QuantityRai = $_POST['Rainbow'];
+      $QuantityEst = $_POST['Est'];
+      $QuantityPhil = $_POST['Philadelphia'];
+      $QuantityVal = $_POST['Valcano'];
+      $QuantityAvo = $_POST['Avocado'];
       $C = 5;
       $R = 8;
       $E = 3;
@@ -68,19 +64,19 @@
       $Total = $SousTotal + $TPS + $TPQ;
 
 
-        echo " Sushi California Roll .$TotalCalifornia., <br>
-               Sushi Rainbow Roll  .$TotalRainbow. , <br>
-               Sushi Est Roll .$TotalEst. , <br>
-               Sushi Philadelphia Roll .$TotalPhiladelphia. , <br>
-               Sushi Valcano Roll .$TotalValcano. , <br>
-               Sushi Avocado Roll .$TotalAvocado. ,<br><br>";
+        echo " Sushi California Roll =  $QuantityCal  morceaux,  ça coût: $TotalCalifornia $ <br>
+               Sushi Rainbow Roll   = $QuantityRai  morceaux, ça coût:  $TotalRainbow $ <br>
+               Sushi Est Roll = $QuantityEst  morceaux, ça coût:  $TotalEst $ <br>
+               Sushi Philadelphia Roll = $QuantityPhil  morceaux, ça coût:  $TotalPhiladelphia $ <br>
+               Sushi Valcano Roll =  $QuantityVal  morceaux, ça coût:  $TotalValcano $ <br>
+               Sushi Avocado Roll  = $QuantityAvo  morceaux, ça coût:  $TotalAvocado $ <br><br>";
 
        
          
-        echo  "Sous-Total : .$SousTotal. <br>";
-        echo  "TPS 5% : .$TPS.  <br>";
-        echo  "TVQ 10% : .$TPQ. <br>";
-        echo  " Total : .$Total. <br><br> ";
+        echo  "Sous-Total : $SousTotal  $ <br>";
+        echo  "TPS : $TPS  $  <br> ";
+        echo  "TVQ : $TPQ  $ <br>";
+        echo  " Total : $Total  $ <br><br> ";
         echo  "Notre Slogan 'I love $txt'<br><br>";
 
       
