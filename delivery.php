@@ -48,6 +48,10 @@
         echo  "TVQ : <br>";
         echo  " Total : <br><br> ";
         echo  "Notre Slogan 'I love $txt'<br><br>";
+
+      
+
+       echo "<a href='index.php'>BACK HOME</a>"; 
         
 ?>
     

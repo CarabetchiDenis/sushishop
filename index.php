@@ -6,36 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SushiShop</title>
 </head>
-<body>
+    <body>
       <!-- sushi delivery from-->
-    <form action="delivery.php" method="post"> 
+        <form action="delivery.php" method="post"> 
          
-        <div class="form">
-         <h3 class="titre">Welcome to SushiShop </h3>
-         <h4>Choisissez votre command</h4>
-         <h5> Attention paquet de 6 morceaux </h5> <br>
+         <div class="form">
+          <h3 class="titre">Welcome to SushiShop </h3>
+          <h4>Choisissez votre command</h4>
+          <h5> Attention paquet de 0 morceaux par default </h5> <br>
 
-         <!-- Choice option -->         
-         <!--row 1-->
-         <tr>
-             <td><input type="radio" name="California" value="5" >California Roll   == "coût 5$"</td><br><br>
-             <td><input type="radio" name="Rainbow" value="8" > Rainbow Roll   ==  "coût 8$"</td><br><br>
-             <td><input type="radio" name="Est" value="18" > Est Roll  ==  "coût 18$"  </td><br><br>
-         </tr>  <br><br><br>
-         
-         <!--row 2-->
-         <tr>
-             <td><input type="radio" name="Philadelphia" value="28" > Philadelphia Roll    ==  "coût 28$"</td><br><br>
-             <td><input type="radio" name="Valcano" value=" 15" > Valcano Roll    ==  "coût 15$"</td><br><br>
-             <td><input type="radio" name="Avocado" value="10" > Avocado Roll    ==  "coût 10$"</td><br><br>
-         </tr> <br> <br> <br>
+          <!-- Choice option -->         
+                          
+               <label for="California">***California Roll***</label>
+               <name="California" id="California"> 
+               <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  5$/morceaux"<br><br><br>
+               
+                <label for="Rainbow">***Rainbow Roll***</label>
+                <name="Rainbow" id="Rainbow">
+                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  8$/morceaux"<br><br><br>
+             
+                <label for="Est">***Est Roll***</label>
+                <name="Est" id="Est">
+                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  3$/morceaux"<br><br><br>
+             
+                <label for="Philadelphia">***Philadelphia Roll***</label>
+                <name="Philadelphia" id="Philadelphia">
+                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  4$/morceaux"<br><br><br>
+             
+                <label for="Valcano">***Valcano Roll***</label>
+                <name="Valcano" id="Valcano">
+                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  9$/morceaux"<br><br><br>
+             
+                <label for="Avocado">***Avocado Roll***</label>
+                <name="Avocado" id="Avocado">
+                <input type="number" name="payments" id="payments" min="0" value="0"><<< Select here == "coût  10$/morceaux"<br><br><br>
+                <br> <br> <br>
         
-         <!--Submit button-->
+                <!--Submit button-->
+                <input type="submit" value="Submit order" name="submit">
+         </div>
+        </form>
 
-            
-          <input type="submit" value="Submit order" name="submit">
-        </div>
-    </form>
-
-</body>
+    </body>
 </html>
