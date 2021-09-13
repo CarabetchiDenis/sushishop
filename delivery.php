@@ -1,5 +1,6 @@
 <?php
  session_start();
+ sleep(3);
 
  //1. INPUT
  //2. VALIDATE INPUT
@@ -118,7 +119,7 @@
                $errors[] = "Quantity ofAvocado must be a number...";
             }
         } else {
-        $errors [] = "You did not submit the quantity of Avocado...";
+        $errors [] = "LPLYou did not submit the quantity of Avocado...";
      } 
     } else {
         $errors[] = "Error, you did not submit the form...";
@@ -133,12 +134,12 @@
         }
     } else {
         //show detailed receipt
-        echo "California   :"  . $QuantityCal .   "...ça coût:" .$price_california    *  $QuantityCal . "$<br>";
-        echo "Rainbow      :"  . $QuantityRai .   "...ça coût:" .$price_rainbow       *  $QuantityRai . "$<br>";
-        echo "Est          :"  . $QuantityEst .   "...ça coût:" .$price_est           *  $QuantityEst . "$<br>";
-        echo "Philadelphia :"  . $QuantityPhil .  "..ça coût:" .$price_philadelphia  *  $QuantityPhil . "$<br>";
-        echo "Valcano      :"  . $QuantityVal.    "...ça coût:" .$price_valcano       *  $QuantityVal .  "$<br>";
-        echo "Avocado      :"  . $QuantityAvo .   "...ça coût:" .$price_avocado       *  $QuantityAvo .  "$<br>";
+        echo "California  Roll     :"  . $QuantityCal .   "...ça coût:" .$price_california    *  $QuantityCal . "$<br>";
+        echo "Rainbow  Roll        :"  . $QuantityRai .   "...ça coût:" .$price_rainbow       *  $QuantityRai . "$<br>";
+        echo "Est  Roll            :"  . $QuantityEst .   "...ça coût:" .$price_est           *  $QuantityEst . "$<br>";
+        echo "Philadelphia  Roll   :"  . $QuantityPhil .  "..ça coût:" .$price_philadelphia  *  $QuantityPhil . "$<br>";
+        echo "Valcano  Roll        :"  . $QuantityVal.    "...ça coût:" .$price_valcano       *  $QuantityVal .  "$<br>";
+        echo "Avocado  Roll        :"  . $QuantityAvo .   "...ça coût:" .$price_avocado       *  $QuantityAvo .  "$<br>";
 
         //calculate TPS && TVQ
         $sub_total = 0;
