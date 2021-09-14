@@ -7,10 +7,6 @@
  //3. BUSINESS LOGIC (tvq tps)
  //4. OUTPUT
 
-   echo "Thanks<br><br>";
-   echo "Votre commande est:<br><br><br>";
-
-
    ////////////////////////
    ////Constants
    ///////////////////////
@@ -135,6 +131,10 @@
         }
     } else {
         //show detailed receipt
+
+        echo "Thanks<br><br>";
+        echo "Votre commande est:<br><br><br>";
+
         echo "California  Roll     :"  . $quantity_cali .    "...ça coût:" .$price_california     *  $quantity_cali . "$<br>";
         echo "Rainbow  Roll        :"  . $quantity_rain .    "...ça coût:" .$price_rainbow        *  $quantity_rain . "$<br>";
         echo "Est  Roll            :"  .  $quantity_est .    "...ça coût:" .$price_est            *   $quantity_est . "$<br>";
@@ -159,6 +159,8 @@
        echo "<a href='index.php'>BACK HOME</a><br><br><br>"; 
        echo "Today is " . date("Y-m-d"). "<br>";
        echo "Today is " . date("l");
+
+
 
     }
  

@@ -52,6 +52,8 @@
     var q_rainbow = document.getElementById("rainbow").value;
     var q_est = document.getElementById("est").value;
     var q_philadelphia = document.getElementById("philadelphia").value;
+
+    console.log(q_philadelphia);
     var q_alcano = document.getElementById("valcano").value;
     var q_avocado = document.getElementById("avocado").value;
 
@@ -64,7 +66,7 @@
 
    xhttp.open("POST", "delivery.php", true);
    xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-   xhttp.send("submit=true&California=" + q_california + "&Rainbow=" + q_rainbow + "&Est=" + q_est + "&Philadelphia=" + q_philadelphia + "$Valcano" + q_alcano + "$Avocado" + q_avocado);
+   xhttp.send("submit=true&California=" + q_california + "&Rainbow=" + q_rainbow + "&Est=" + q_est + "&Philadelphia=" + q_philadelphia + "&Valcano=" + q_alcano + "&Avocado=" + q_avocado);
   }
 
 </script>  
